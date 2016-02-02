@@ -1,0 +1,74 @@
+global:
+  version: VERSION
+  css:
+    base:
+      css/foundation.min.css: {}
+      css/zurb_foundation.min.css: {}
+  js:
+    js/foundation.min.js: {}
+    js/top_bar_active.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
+
+development:
+  version: VERSION
+  css:
+    base:
+      css/foundation.css: {}
+      css/zurb_foundation.min.css: {}
+  js:
+    js/foundation/foundation.abide.js: {}
+    js/foundation/foundation.accordion.js: {}
+    js/foundation/foundation.accordionMenu.js: {}
+    js/foundation/foundation.core.js: {}
+    js/foundation/foundation.drilldown.js: {}
+    js/foundation/foundation.dropdown.js: {}
+    js/foundation/foundation.dropdownMenu.js: {}
+    js/foundation/foundation.equalizer.js: {}
+    js/foundation/foundation.interchange.js: {}
+    js/foundation/foundation.magellan.js: {}
+    js/foundation/foundation.min.js: {}
+    js/foundation/foundation.offcanvas.js: {}
+    js/foundation/foundation.orbit.js: {}
+    js/foundation/foundation.responsiveMenu.js: {}
+    js/foundation/foundation.responsiveToggle.js: {}
+    js/foundation/foundation.reveal.js: {}
+    js/foundation/foundation.slider.js: {}
+    js/foundation/foundation.sticky.js: {}
+    js/foundation/foundation.tabs.js: {}
+    js/foundation/foundation.toggler.js: {}
+    js/foundation/foundation.tooltip.js: {}
+    js/foundation/foundation.util.box.js: {}
+    js/foundation/foundation.util.keyboard.js: {}
+    js/foundation/foundation.util.mediaQuery.js: {}
+    js/foundation/foundation.util.motion.js: {}
+    js/foundation/foundation.util.nest.js: {}
+    js/foundation/foundation.util.timerAndImageLoader.js: {}
+    js/foundation/foundation.util.touch.js: {}
+    js/foundation/foundation.util.triggers.js: {}
+    js/foundation.js: {}
+    js/top_bar_active.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
+
+status_in_reveal:
+  version: VERSION
+  js:
+    js/status_in_reveal.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
+
+alert_close:
+  version: VERSION
+  js:
+    js/alert_close.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
