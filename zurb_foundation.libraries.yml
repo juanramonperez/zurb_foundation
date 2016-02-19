@@ -3,7 +3,7 @@ global:
   css:
     base:
       css/foundation.min.css: {}
-      # css/zurb_foundation.min.css: {}
+      css/zurb_foundation.min.css: {}
   js:
     js/foundation.min.js: {}
     js/top_bar_active.js: {}
